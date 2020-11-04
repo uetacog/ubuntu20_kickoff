@@ -153,4 +153,11 @@ wget -O ./google-earth.deb https://dl.google.com/dl/earth/client/current/google-
 sudo dpkg -i ./google-earth.deb
 cd ~
 
+# ttyd (web console)
+cd src
+sudo apt install libjson-c-dev
+cd ttyd && mkdir build && cd build
+cmake ..
+make && sudo make install
+cd ~
 
