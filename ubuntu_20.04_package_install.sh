@@ -39,6 +39,7 @@ wireguard
 openvpn 
 wireshark 
 net-tools 
+resolvconf
 
 ## Multimedia
 vlc 
