@@ -84,12 +84,9 @@ cubicsdr
 # Apt install some packages
 sudo apt install -y ${package_list[@]}
 
-clear
-echo #######################################
-echo ######### LOG BACK IN #################
-echo #######################################
+# Add user to docker
+# Need to log out and back in or su ${USER}
 sudo usermod -aG docker ${USER}
-su ${USER}
 
 # Create a SSH key
 ssh-keygen -t rsa -f $USER/.ssh/id_rsa -q -P ""
