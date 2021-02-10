@@ -13,6 +13,8 @@ screen
 nmap 
 htop 
 python3-pip 
+cmake
+sox
 
 ## Nice for sysadmin
 nethogs 
