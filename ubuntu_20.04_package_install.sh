@@ -151,8 +151,8 @@ cd ~
 cd src
 git clone https://github.com/uetacog/grgsm_docker.git
 cd grgsm_docker
-sh ${USER} -c ./build.sh
-exit
+sudo su ${USER}
+./build.sh
 cp -r gsm_wireshark_profile/ ~/.config/wireshark/profiles/
 cd ~
 
