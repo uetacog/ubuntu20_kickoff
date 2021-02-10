@@ -137,8 +137,9 @@ mkdir -p bettercap
 cd bettercap
 sudo apt install -y libpcap-dev libusb-1.0-0-dev libnetfilter-queue-dev 
 wget https://github.com/bettercap/bettercap/releases/download/v2.28/bettercap_linux_amd64_v2.28.zip
-sudo bettercap -eval "caplets.update; ui.update; q"
-echo "sudo bettercap -caplet http-ui" > run.sh
+unzip bettercap_linux*
+sudo ./bettercap -eval "caplets.update; ui.update; q"
+echo "sudo ./bettercap -caplet http-ui" > run.sh
 chmod +x run.sh
 cd ~
 
