@@ -42,6 +42,7 @@ openvpn
 wireshark 
 net-tools 
 resolvconf
+macchanger
 
 ## Multimedia
 vlc 
@@ -59,6 +60,7 @@ docker.io
 gnome-boxes 
 wine 
 winetricks 
+libguestfs-tools
 
 ## Communication
 chromium-browser 
