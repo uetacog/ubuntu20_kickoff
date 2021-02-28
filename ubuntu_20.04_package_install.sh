@@ -47,6 +47,9 @@ macchanger
 ## Multimedia
 vlc 
 pavucontrol 
+paprefs
+pasystray
+pulseeffects
 moc 
 moc-ffmpeg-plugin 
 gimp 
@@ -81,6 +84,8 @@ uhd-host
 airspy 
 gqrx-sdr 
 cubicsdr 
+wsjtx
+fldigi
 )
 
 # Apt install some packages
