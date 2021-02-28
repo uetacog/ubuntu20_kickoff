@@ -91,6 +91,9 @@ fldigi
 # Apt install some packages
 sudo apt install -y ${package_list[@]}
 
+# Quick fix for paprefs
+sudo ln -s /usr/lib/pulse-13.99.1 /usr/lib/pulse-13.99
+
 # Add user to docker
 # Need to log out and back in or su ${USER}
 sudo usermod -aG docker ${USER}
