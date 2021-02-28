@@ -50,6 +50,7 @@ pavucontrol
 paprefs
 pasystray
 pulseeffects
+pavumeter
 moc 
 moc-ffmpeg-plugin 
 gimp 
