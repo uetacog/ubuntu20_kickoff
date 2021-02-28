@@ -16,6 +16,6 @@ You can use it two ways;
 `cd ubuntu20_kickoff`  
 `bash ubuntu_20.04_package_install.sh`  
 
-If you do option 1, its work at least looking at the code before you go blindly run something some rando put on github.
+If you do option 1, its worth at least looking at the code before you go blindly run something some rando put on github.
 
 This is made for 20.04 Ubuntu, but should work with other Deb distros and possibly previous versions. 
