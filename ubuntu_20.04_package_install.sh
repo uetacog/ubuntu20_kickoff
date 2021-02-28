@@ -80,7 +80,10 @@ sgt-puzzles
 gnome-games 
 
 ## SDR Stuff
+gnuradio
+inspectrum
 rtl-sdr 
+rtl-433
 uhd-host 
 airspy 
 gqrx-sdr 
